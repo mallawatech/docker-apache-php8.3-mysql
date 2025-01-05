@@ -19,10 +19,10 @@ services:
     image: mysql:8.0 # Pastikan menggunakan versi MySQL yang sesuai
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: MYSQL_PASSWORD
-      MYSQL_DATABASE: MYSQL_DATABASE
-      MYSQL_USER: MYSQL_USER
-      MYSQL_PASSWORD: MYSQL_PASSWORD
+      MYSQL_ROOT_PASSWORD: arista1234
+      MYSQL_DATABASE: arista
+      MYSQL_USER: arista
+      MYSQL_PASSWORD: arista123
     ports:
       - 9906:3306
     volumes:
