@@ -21,10 +21,10 @@ services:
     container_name: laravel_db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: laravel
-      MYSQL_USER: laravel_user
-      MYSQL_PASSWORD: laravel_password
+      MYSQL_ROOT_PASSWORD: arista
+      MYSQL_DATABASE: arista
+      MYSQL_USER: arista_user
+      MYSQL_PASSWORD: arista@123
     ports:
       - "3306:3306"
     volumes:
